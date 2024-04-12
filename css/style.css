@@ -1,0 +1,69 @@
+body {
+    background-color: #1AA0AC;
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-position: right 45vw bottom 45vh, 45vw 45vh;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Nunito Sans', sans-serif;
+  overflow: hidden;
+}
+
+section {
+    color: rgb(7, 0, 0);
+  background-color: #faf9f9;
+  border-radius: 10px;
+  width: 20rem;
+  height: 33rem;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+
+}
+
+#background {
+    background-image: url(../images/bg-pattern-card.svg);
+    block-size: 10rem;
+    /* overflow: hidden; */
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+}
+
+img {
+  border-radius: 50%;
+  border: solid 3px white;
+  width: 5rem;
+  margin-top: 6rem;
+}
+
+.sabine {
+    font-weight: 600;
+      /* font-family: 'Nunito Sans', sans-serif; */
+      margin-top: 2.5rem;
+      margin-bottom: 0;
+}
+
+.presents {
+    font-weight: 200;
+    font-size: .8rem;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+.button {
+    border: 1px solid grey;
+    padding: .3rem;
+    border-radius: 15px;
+    width: 50%;
+    margin-bottom: .1rem;
+}
